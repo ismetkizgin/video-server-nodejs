@@ -1,0 +1,27 @@
+{
+  "name": "video-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismetkizgin/video-server.git"
+  },
+  "author": "İsmet Kizgin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismetkizgin/video-server/issues"
+  },
+  "homepage": "https://github.com/ismetkizgin/video-server#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
