@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "require-directory": "^2.1.1",
     "path": "^0.12.7"
   }
 }
