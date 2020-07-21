@@ -4,8 +4,8 @@ const router = express();
 
 router.get('/stream/:videoName', async (req, res) => {
 	try {
-		const resolution = req.params.resolution;
-		const path = `public/assets/videos/${resolution}.mp4`;
+		const videoName = req.params.videoName;
+		const path = `public/assets/videos/${videoName}.mp4`;
 		const stat = fs.statSync(path);
 		const fileSize = stat.size;
 		const range = req.headers.range;
