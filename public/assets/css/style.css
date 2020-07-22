@@ -1,3 +1,7 @@
+body {
+    background-color: #ece7e6;
+}
+
 .dropbtn {
     background-color: #3498db;
     color: white;
@@ -11,10 +15,15 @@
 .dropbtn:focus {
     background-color: #2980b9;
 }
+.embed-responsive{
+    height: 80%;
+}
 
 .dropdown {
     position: relative;
     display: inline-block;
+    float: right;
+    margin-top: 15px;
 }
 
 .dropdown-content {

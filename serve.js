@@ -5,6 +5,9 @@ const routers = require('./routers');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.set('views', __dirname + '/public/views/');
+app.set('view engine', 'twig');
+
 app.use(routers.streamRouter);
 app.use(routers.watchRouter);
 

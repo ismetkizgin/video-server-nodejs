@@ -1,0 +1,8 @@
+<div class="dropdown">
+	<button onclick="dropdownFunc()" class="dropbtn">{{ defaultVideo.name }}</button>
+	<div id="dropdown" class="dropdown-content">
+		{% for item in videoFileNames %}
+			<a onclick="getVideo(this)">{{ item }}</a>
+		{% endfor %}
+	</div>
+</div>

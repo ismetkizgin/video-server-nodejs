@@ -19,6 +19,7 @@ function getVideo(element) {
     const video = document.getElementById('videoPlayer');
     video.pause();
     document.getElementById('video').setAttribute('src', window.location + 'stream/' + element.text.toString());
+    document.getElementById('videoPlayer').style.display = 'block';
     video.load();
     video.play();
 }
